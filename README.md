@@ -1,0 +1,2 @@
+# CheckLinesDuplicate
+In this code I'm removing duplicity from one file versus another file based on three premises:  1. The comparison must only occur between the characters determined in the begin_pos_compare and end_pos_compare variables  2. The initial 2 characters of the line must start with the value defined in item_file_delimiter  3. When you find a duplicate and if the previous line starts with the value defined in the variable header_file_delimiter, this line must also be deleted
